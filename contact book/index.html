@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Contact Book</h1>
+
+    <input type="text" id="name" placeholder="Name">
+    <input type="text" id="phone" placeholder="Phone Number">
+    <input type="email" id="email" placeholder="Email">
+
+    <button onclick="addContact()">Add Contact</button>
+
+    <input type="text" id="search" placeholder="Search contact"
+           onkeyup="searchContacts()">
+
+    <div id="contactList"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
